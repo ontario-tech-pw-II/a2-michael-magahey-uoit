@@ -13,6 +13,10 @@ int main(int argc, char const *argv[])
 	{
 		fin.open(argv[1]);
 	}
+	else
+	{
+		return 1;
+	}
 	// open the first file
 	char c;
  	if (fin.fail()) // check if it is successful
